@@ -1,0 +1,76 @@
+/* Makes the file look like a card */
+.file {
+  /* Layout */
+  width: 80ch;
+  margin: 5em auto 10em;
+
+  /* Font stuff */
+  line-height: 1.5;
+  font-family: "ui-monospace", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Stop long links from going overboard */
+  word-wrap: break-word;
+}
+
+/* Tables in file */
+
+.file_content table {
+  width: 100%;
+}
+
+.file_content table th {
+  text-align: left;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* Codeblocks and code in file */
+
+.file_content pre {
+  background-color: #F3F4F6;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.file_content code {
+  background-color: #F3F4F6;
+  padding: 2px;
+  display: inline-block;
+}
+
+/* Links in a file */
+
+.file_content a {
+  text-decoration: none;
+  color: #3B82F6;
+}
+
+.file_content a:hover {
+  text-decoration: underline;
+}
+
+.file_content a:visited {
+  color: #6366F1;
+}
+
+/* Headers in a file */ 
+
+.file_content h1,
+.file_content h2,
+.file_content h3,
+.file_content h4,
+.file_content h5,
+.file_content h6 {
+  margin-top: 2em;
+  font-size: 16px;
+}
+
+.file_content h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.file_content h2 {
+  border-bottom: 1px solid #E5E7EB;
+  padding-bottom: 8px;
+}
+
